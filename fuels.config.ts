@@ -1,6 +1,4 @@
-import { createConfig } from 'fuels';
-
-export default createConfig({
+export default({
   contracts: ['../airbnb-contract'],
   output: './src/contracts',
 });
